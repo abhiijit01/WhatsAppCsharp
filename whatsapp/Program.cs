@@ -15,8 +15,8 @@ namespace whatsapp
     {
         static void Main(string[] args)
         {
-            const string accountSid = "AC2ca69e0be8f63f7b0be436a1660cf9db";
-            const string authToken = "8525996d8758066700a84e91ec92e383";
+            const string accountSid = "your twilio sid";
+            const string authToken = "password for this twilio whatsapp api";
 
             TwilioClient.Init(accountSid, authToken);
 
